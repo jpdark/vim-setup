@@ -1,0 +1,66 @@
+[submodule "pack/git-plugins/start/vim-fugitive"]
+	path = pack/git-plugins/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "pack/git-plugins/start/vim-surround"]
+	path = pack/git-plugins/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "pack/git-plugins/start/vim-gitgutter"]
+	path = pack/git-plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/git-plugins/start/tagbar"]
+	path = pack/git-plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "pack/git-plugins/start/ale"]
+	path = pack/git-plugins/start/ale
+	url = https://github.com/w0rp/ale
+[submodule "pack/git-plugins/start/fzf"]
+	path = pack/git-plugins/start/fzf
+	url = https://github.com/junegunn/fzf
+[submodule "pack/git-plugins/start/ack.vim"]
+	path = pack/git-plugins/start/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "pack/git-plugins/start/vim-indent-guides"]
+	path = pack/git-plugins/start/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "pack/git-plugins/start/black"]
+	path = pack/git-plugins/start/black
+	url = https://github.com/ambv/black
+[submodule "pack/git-plugins/start/vim-test"]
+	path = pack/git-plugins/start/vim-test
+	url = https://github.com/janko-m/vim-test
+[submodule "pack/git-plugins/start/gv.vim"]
+	path = pack/git-plugins/start/gv.vim
+	url = https://github.com/junegunn/gv.vim
+[submodule "pack/git-plugins/start/lightline.vim"]
+	path = pack/git-plugins/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/git-plugins/start/YouCompleteMe"]
+	path = pack/git-plugins/start/YouCompleteMe
+	url = https://github.com/valloric/youcompleteme
+[submodule "pack/git-plugins/start/vim-toml"]
+	path = pack/git-plugins/start/vim-toml
+	url = git@github.com:cespare/vim-toml.git
+[submodule "pack/git-plugins/start/lightline-ale"]
+	path = pack/git-plugins/start/lightline-ale
+	url = git@github.com:maximbaz/lightline-ale.git
+[submodule "pack/git-plugins/start/vim-localvimrc"]
+	path = pack/git-plugins/start/vim-localvimrc
+	url = https://github.com/embear/vim-localvimrc
+[submodule "pack/git-plugins/start/vim-hcl"]
+	path = pack/git-plugins/start/vim-hcl
+	url = git://github.com/jvirtanen/vim-hcl.git
+[submodule "pack/git-plugins/start/fzf.vim"]
+	path = pack/git-plugins/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/git-plugins/start/vim-misc"]
+	path = pack/git-plugins/start/vim-misc
+	url = https://github.com/xolox/vim-misc
+[submodule "pack/git-plugins/start/vim-virtualenv"]
+	path = pack/git-plugins/start/vim-virtualenv
+	url = https://github.com/jmcantrell/vim-virtualenv
+[submodule "pack/git-plugins/start/vimux"]
+	path = pack/git-plugins/start/vimux
+	url = https://github.com/preservim/vimux
+[submodule "pack/git-plugins/start/vim-jsx-pretty"]
+	path = pack/git-plugins/start/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git

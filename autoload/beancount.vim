@@ -1,0 +1,1 @@
+/home/jpdark/.vim/pack/git-plugins/start/vim-beancount/autoload/beancount.vim

@@ -39,7 +39,7 @@ Don't forget to commit `git commit -m "Updated plugins"`
 | buffer# | Jump to buffer # |
 | <C-W>T | Open current buffer in new tab |
 | <C-W>= | Equalize the size of open windows |
-|
+| <C-W><C-R> | Swap splits |
 
 ### Navigation
 

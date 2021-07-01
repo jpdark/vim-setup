@@ -2,6 +2,7 @@ syntax on
 
 colorscheme monokai_pro
 
+set hidden " Buffers don't need to be saved, use :wa
 set number
 set encoding=utf-8
 set laststatus=2
@@ -196,3 +197,12 @@ set tags=.tags;/
 au BufWritePost *.py,*.c,*.cpp,*.h silent! !ctags -R -f .tags &
 
 nmap <F8> :TagbarToggle<CR>
+
+" pydocstring
+let g:pydocstring_formatter = 'sphinx'
+
+" Rust
+let g:rustfmt_autosave = 1
+
+
+" Beancount

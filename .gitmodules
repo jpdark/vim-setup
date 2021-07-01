@@ -64,3 +64,12 @@
 [submodule "pack/git-plugins/start/vim-jsx-pretty"]
 	path = pack/git-plugins/start/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+[submodule "pack/git-plugins/start/vim-beancount"]
+	path = pack/git-plugins/start/vim-beancount
+	url = https://github.com/nathangrigg/vim-beancount.git
+[submodule "/home/jpdark/.vim/pack/plugins/start/rust.vim"]
+	path = /home/jpdark/.vim/pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "pack/git-plugins/start/vim-pydocstring"]
+	path = pack/git-plugins/start/vim-pydocstring
+	url = https://github.com/heavenshell/vim-pydocstring.git

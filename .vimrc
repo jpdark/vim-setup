@@ -47,6 +47,9 @@ let mapleader = " "
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+" Reload buffers on autofocus
+set autoread
+
 " FZF
 set rtp+=~/.fzf
 nmap <C-p> :GFiles<CR>
@@ -75,6 +78,7 @@ highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 " AUTOCOMPLETE
 let g:ycm_auto_trigger=1
 let g:ycm_python_binary_path = "/usr/bin/python3.8"
+let g:ycm_clangd_binary_path = "/usr/bin/clangd"
 
 " SYNTAX HIGHLIGHTING
 let g:python_highlight_all = 1
@@ -93,10 +97,10 @@ let g:lightline = {
   \             ['fileformat', 'filetype', 'fileencoding'],
   \         ],
   \     },
-      \ 'component_function': {
-      \   'gitbranch': 'FugitiveHead'
-      \ },
   \ }
+
+" FUGITIVE
+nmap <C-h> :Git<CR>
 
 " ALE (LINTING)
 let g:ale_linters_explicit = 1
@@ -205,4 +209,24 @@ let g:pydocstring_formatter = 'sphinx'
 let g:rustfmt_autosave = 1
 
 
-" Beancount
+" ----- VARIABLE -----
+let $VIMBROWSER='firefox'
+let $OPENBROWSER='nnoremap <F5> :!'. $VIMBROWSER .' %:p<CR>'
+
+" ----- .md OPENER -----
+augroup OpenMdFile
+  autocmd!
+  autocmd BufEnter *.md echom "Press F5 to Open .md File"
+  " Trying to make a keybind to open brave from here
+  autocmd BufEnter *.md exe $OPENBROWSER
+augroup END
+
+" Docstrings
+let g:pydocstring_doq_path = "~/.local/bin/doq"
+let g:pydocstring_formatter = 'google'
+
+let g:go_highlight_functions = 1
+let g:go_highlight_space_tab_error = 1
+au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
+let g:go_fmt_autosave=0
+let g:go_asmfmt_autosave=0

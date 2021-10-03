@@ -72,4 +72,16 @@
 	url = https://github.com/rust-lang/rust.vim
 [submodule "pack/git-plugins/start/vim-pydocstring"]
 	path = pack/git-plugins/start/vim-pydocstring
-	url = https://github.com/heavenshell/vim-pydocstring.git
+	url = git@github.com:heavenshell/vim-pydocstring.git
+[submodule "pack/git-plugins/start/vim-tmux-focus-events"]
+	path = pack/git-plugins/start/vim-tmux-focus-events
+	url = git@github.com:tmux-plugins/vim-tmux-focus-events.git
+[submodule "pack/git-plugins/start/nginx.vim"]
+	path = pack/git-plugins/start/nginx.vim
+	url = https://github.com/chr4/nginx.vim.git
+[submodule "/home/jpdark/.vim/pack/plugins/start/vim-go"]
+	path = /home/jpdark/.vim/pack/plugins/start/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "pack/git-plugins/start/vim-obsession"]
+	path = pack/git-plugins/start/vim-obsession
+	url = git://github.com/tpope/vim-obsession.git

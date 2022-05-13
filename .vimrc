@@ -36,8 +36,7 @@ if !has('gui_running')
   set t_Co=256
 endif
 
-" Load all packages now
-packloadall
+
 " Generate help tags from all packages and ignore errors
 silent! helptags ALL
 

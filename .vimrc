@@ -150,9 +150,6 @@ let g:lightline#ale#indicator_warnings = "⚠ "
 let g:lightline#ale#indicator_errors = "✘ "
 let g:lightline#ale#indicator_ok = "✔ "
 
-" Mappings
-map <F6> :NERDTreeToggle<CR>
-
 command! Bd bp | sp | bn | bd
 
 " GITGUTTER

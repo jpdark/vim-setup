@@ -79,9 +79,9 @@
 [submodule "pack/git-plugins/start/nginx.vim"]
 	path = pack/git-plugins/start/nginx.vim
 	url = https://github.com/chr4/nginx.vim.git
-[submodule "pack/git-plugins/start/vim-obsession"]
-	path = pack/git-plugins/start/vim-obsession
-	url = git://github.com/tpope/vim-obsession.git
 [submodule "pack/git-plugins/start/vim-snippets"]
 	path = pack/git-plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/git-plugins/start/vim-obsession"]
+	path = pack/git-plugins/start/vim-obsession
+	url = https://github.com/tpope/vim-obsession.git

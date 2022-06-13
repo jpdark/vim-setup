@@ -53,6 +53,8 @@ Don't forget to commit `git commit -m "Updated plugins"`
 | zz | Center the current line within the window |
 | zt | Bring the current line to the top of the window |
 | zb | Bring the current line to the bottom of the window |
+| C-f | Scroll down entire page |
+| C-b | Scroll up entire page |
 
 ### Editing & Refactoring
 

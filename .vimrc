@@ -23,6 +23,8 @@ set shiftwidth=4
 autocmd FileType hcl setlocal shiftwidth=2 softtabstop=2 tabstop=2 expandtab
 autocmd BufRead *.map set filetype=map
 autocmd FileType map setlocal shiftwidth=2 softtabstop=2 tabstop=2 expandtab
+" Makefile uses tabs
+autocmd FileType make setlocal tabstop=4 shiftwidth=4 noexpandtab
 
 " INDENTATION
 set smartindent
@@ -76,7 +78,7 @@ highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 " AUTOCOMPLETE
 let g:ycm_auto_trigger=1
-let g:ycm_python_binary_path = "/usr/bin/python3.8"
+let g:ycm_python_binary_path = "/usr/bin/python3.10"
 let g:ycm_clangd_binary_path = "/usr/bin/clangd"
 
 " SYNTAX HIGHLIGHTING

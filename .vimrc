@@ -78,6 +78,8 @@ highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 " AUTOCOMPLETE
 let g:ycm_auto_trigger=1
+let g:ycm_key_list_select_completion = ['<C-j>']
+let g:ycm_key_list_previous_completion = ['<C-k>']
 let g:ycm_python_binary_path = "/usr/bin/python3.10"
 let g:ycm_clangd_binary_path = "/usr/bin/clangd"
 
@@ -195,6 +197,7 @@ endif
 let test#strategy = 'vimux'
 let test#python#pytest#executable = 'poetry run pytest'
 
+" ctags
 set tags=.tags;/
 au BufWritePost *.py,*.c,*.cpp,*.h silent! !ctags -R -f .tags &
 
